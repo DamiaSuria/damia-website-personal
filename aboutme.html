@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎀⋆Damia Suria🎀 - About Me</title>
+    <style>
+        body {
+            background-image: url('image/gambar.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #140211;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: rgb(251, 252, 252);
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+
+        nav a.active, nav a:hover {
+            background-color: #ef9bc2;
+        }
+
+        /* About Me Section Styling */
+        .about-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            margin-top: 30px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .about-me-content {
+            margin-bottom: 30px;
+        }
+
+        .about-me-content h1 {
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #5e2e60;
+            font-weight: bold;
+        }
+
+        /* Layout for images and descriptions (side-by-side) */
+        .image-text-container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        /* Image container (portrait) */
+        .image-container {
+            flex-basis: 35%; /* Adjusted for smaller width */
+            margin-right: 20px; /* Added more space between image and description */
+            border: 3px solid #ffbae8; /* Add border around the image */
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .image-container img {
+            width: 100%;  /* Ensure the image fits its container */
+            height: 300px; /* Standardized height */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Extra Image container (portrait) */
+        .extra-image {
+            flex-basis: 35%; /* Adjusted for smaller width */
+            margin-left: 20px; /* Added more space between image and description */
+            border: 3px solid #ffbaed; /* Add border around the image */
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .extra-image img {
+            width: 100%;  /* Ensure the image fits its container */
+            height: 300px; /* Standardized height */
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        /* Description Box (to the right of the extra image) */
+        .description-container {
+            flex-basis: 45%; /* Adjusted for the available space */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border: 3px solid #000000; /* Pastel border for the description box */
+        }
+
+        .description-container h3 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #5e2e60;
+        }
+
+        .description-container p {
+            font-size: 0.9em;
+            color: #333;
+        }
+
+        /* Next Button Styling */
+        .next-button {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 24px;
+            background-color: #030303;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            width: 250px;
+        }
+
+        .next-button:hover {
+            background-color: #ef9bc2;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutme.html" class="active">About Me</a>
+            <a href="education.html">Education</a>
+            <a href="friends.html">Friends</a>
+            <a href="family.html">Family</a>
+            <a href="experience.html">Experience</a>
+        </nav>
+    </header>
+
+    <section class="about-me">
+        <div class="about-me-content">
+            <h1>⋆🎀About Me🎀⋆</h1>
+        </div>
+
+        <!-- First Image and Description -->
+        <div class="image-text-container">
+            <div class="image-container">
+                <img src="image/WhatsApp Image 2024-11-27 at 5.53.10 PM.jpeg" alt="Image 1">
+            </div>
+            <div class="extra-image">
+                <img src="image/pic me.jpeg" alt="Extra Image 1">
+            </div>
+            <div class="description-container">
+                <h3>About Damia</h3>
+                <p><b>Name:</b> Siti Nurdamia Suria Zafira Binti Zafri, but everyone calls me "Mia" or "Suria".</p>
+                <p><b>Address:</b> I live in Port Dickson, Negeri Sembilan, and Shah Alam, Selangor, both are my homes.</p>
+                <p><b>Current Age and Status:</b> Now, I am 20 years old and currently single, but if you want to be mine, I will consider.</p>
+                <p><b>Birthday:</b> 9. December.2004</p>
+                <p><b>Favorite Colour:</b> Purple, Black, and Nude.</p>
+                <p><b>"What am i doing?":</b> i am currently pusuing my diploma in Information Management at UiTM Rembau, and this is my last semester.</p>
+            </div>
+        </div>
+
+        <!-- Second Image and Description -->
+        <div class="image-text-container">
+            <div class="image-container">
+                <img src="image/matcha.jpeg" alt="Image 2">
+            </div>
+            <div class="extra-image">
+                <img src="image/my pic 1.jpeg" alt="Extra Image 2">
+            </div>
+            <div class="description-container">
+                <h3>What I Love To Do</h3>
+                <p><b>Hobby:</b> I love to cook, listen to music, and read novels.</p>
+                <p><b>Favourite food:</b> Home Cooked, Ayam Gepuk, Matcha Latte</p>
+                <p><b>Inspiration:</b>To learn how to play the violin and become a successful and wealthy woman.</p>
+            </div>
+        </div>
+
+        <!-- Next Button -->
+        <a href="education.html" class="next-button">Next: Education</a>
+    </section>
+
+</body>
+</html>
